@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    width: 550px;
+    height: 70px;
+    display:flex;
+}
+
+.container-logo {
+    width: 82.02px;
+    height: 25.35px;
+    margin-left: 30px;
+    margin-top: 22px;
+}
