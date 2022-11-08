@@ -10,6 +10,9 @@ Check the Figma file for the design specifics.
 
 export default function App() {
     return (
-        <Nav />
+        <div className="container-parent">
+            <Nav />
+            <Hero />
+        </div>
     )
 }

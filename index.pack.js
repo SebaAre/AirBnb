@@ -411,7 +411,12 @@ Check the Figma file for the design specifics.
 */
 
 function App() {
-    return _react2.default.createElement(_Nav2.default, null);
+    return _react2.default.createElement(
+        "div",
+        { className: "container-parent" },
+        _react2.default.createElement(_Nav2.default, null),
+        _react2.default.createElement(Hero, null)
+    );
 }
 
 /***/ }),
@@ -480,7 +485,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 function Nav() {
     return _react2.default.createElement(
-        "div",
+        "nav",
         { className: "container-nav" },
         _react2.default.createElement("img", { className: "container-logo", src: "./images/airbnb-logo.png" })
     );
